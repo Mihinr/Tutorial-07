@@ -49,7 +49,15 @@ public class Player {
         this.wickets = wickets;
     }
 
-    public double g
+    public double getRunRate(){
+        return runRate;
+    }
+    public void setStrikeRate(double strikeRate){
+        this.strikeRate = strikeRate;
+    }
+
+    public static void main(String[] args) {
+        
     }
 }
-//hello
+
